@@ -31,6 +31,23 @@ for ( let i = 0; i < colors.length; i++){
 console.log(colors[i]);
 }
 
+// 3.- Iterate through the properties of a person object.
+
+for ( let values in person ) {
+    console.log(person[values]);
+}
+
+// 4.- Find the number closest to the square of 100.
+
+// 5.- Print the even numbers up to 10, printing at least one.
+
+let number = 0;
+while (number<=10) {
+   if(  number%2 ===0 ) 
+   {console.log(number);
+}
+number++
+};
 
 
 
