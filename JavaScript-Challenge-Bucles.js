@@ -39,7 +39,28 @@ for ( let values in person ) {
 
 // 4.- Find the number closest to the square of 100.
 
+let num = 0; 
+while (num * num < 100) {
+   num++;
+}
+console.log("The number closest to 100 whose square is less than 100 is:", num);
+
+// method 2
+
+let numero = 0;
+
+while (numero < 100) {
+     numero*numero;
+    if (numero=== 10) {
+        console.log("The number closest to 100 whose square is less than 100 is:", num);
+    }
+    numero++;
+}
+
+
 // 5.- Print the even numbers up to 10, printing at least one.
+
+// method 1
 
 let number = 0;
 while (number<=10) {
@@ -52,7 +73,6 @@ number++
 
 
 
-      
 
 
     
